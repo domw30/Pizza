@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Dino's</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://cdn6.f-cdn.com/contestentries/275024/16747094/560030160f92a_thumb900.jpg" alt="Dinos Pizza Logo" id="logo">
+      <hr>
+
+      <form action="confirmation.html" method="POST">
+        <h1>Create Your Own!</h1>
+					<section class="size">
+          <label for="slices">- Choose A Size -</label>
+          <br>
+    			<input type="radio" name="slices" id="slices" value="small">
+          <label for="small">Small 9.5"</label>
+          <input type="radio" name="slices" id="slices" value="medium">
+          <label for="medium">Medium 11.5"</label>
+          <input type="radio" name="slices" id="slices" value="large">
+          <label for="large">Large 13.5"</label>
+        </section>
+        <hr>
+
+
+        <section class="crust">
+          <label for="base">- Style Of Crust -</label>
+          <br>
+          <input list="bases" id="base" name="base">
+          <datalist id="bases">
+            <option value="Neapolitan"></option>
+            <option value="New York"></option>
+            <option value="Flatbread"></option>
+            <option value="Traditional"></option>
+            <option value="Deep Dish"></option>
+            <option value="Stuffed"></option>
+            <option value="Sicilian"></option>
+          </datalist>
+        </section>
+        <hr>
+
+        <section class="base-sauce">
+          <label for="sauce">- Sauce -</label>
+          <br>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="Tomato"></option>
+            <option value="Garlic"></option>
+            <option value="BBQ"></option>
+          </datalist>
+        </section>
+        <hr>
+
+        <section class="toppings">
+          <span>- Toppings -</span>
+          <br>
+          <input type="checkbox" name="topping" id="jackfruit" value="jackfruit">
+          <label for="jackfruit">Pulled Pork</label>
+          <input type="checkbox" name="topping" id="sausage" value="sausage">
+          <label for="sausage">Hot Italian Sausage</label>
+          <input type="checkbox" name="topping" id="beef" value="beef">
+          <label for="beef">Fiesty Beef</label>
+          <input type="checkbox" name="topping" id="chicken" value="chicken">
+          <label for="chicken">Grilled Chicken</label>
+          <input type="checkbox" name="topping" id="pepperoni" value="pepperoni">
+          <label for="pepperoni">Pepperoni</label>
+          <input type="checkbox" name="topping" id="peppers" value="peppers">
+          <label for="peppers">Peppers</label>
+          <input type="checkbox" name="topping" id="olives" value="olives">
+          <label for="olives">Olives</label>
+          <input type="checkbox" name="topping" id="mushrooms" value="mushrooms">
+          <label for="mushrooms">Mushrooms</label>
+          <input type="checkbox" name="topping" id="onions" value="onions">
+          <label for="onions">Onions</label>
+          <input type="checkbox" name="topping" id="sundried" value="sundried">
+          <label for="sundried">Sundried Tomatos</label>
+          <input type="checkbox" name="topping" id="pineapple" value="pineapple">
+          <label for="pineapple">Pineapple</label>
+          <input type="checkbox" name="topping" id="mozzarella" value="mozzarella">
+          <label for="mozzarella">Mozzarella</label>
+          <input type="checkbox" name="topping" id="ricotta" value="ricotta">
+          <label for="ricotta">Ricotta</label>
+          <input type="checkbox" name="topping" id="cheddar" value="cheddar">
+          <label for="cheddar">Cheddar</label>
+        </section>
+        <hr>
+
+        <section class="cooked">
+          <label for="doneness">- Doneness -</label>
+          <br>
+          <span>Doughy</span>
+          <input type="range" name="doneness" id="doneness" value="2" min="1" max="3">
+          <span>Crispy</span>
+        </section>
+        <hr>
+
+        <hr>
+        <section class="dip">
+          <span>- Dips -</span>
+          <br>
+          <input type="radio" name="dips" id="garlic" value="garlic">
+          <label for="garlic">Garlic and Herb</label>
+          <input type="radio" name="dips" id="ketchup" value="ketchup">
+          <label for="ketchup">Ketchup</label>
+          <input type="radio" name="dips" id="ranch" value="ranch">
+          <label for="ranch">Ranch</label>
+        </section>
+        <hr>
+
+        <section class="extra-info">
+          <label for="extra">- Comments -</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="30"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <input type="submit" value="Order!">
+        </section>
+
+      </form>
+    </section>
+  </body>
+</html>
