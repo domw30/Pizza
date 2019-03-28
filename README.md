@@ -4,5 +4,5 @@ A basic Pizza Takeaway webpage which allows users to interact by creating an ord
 
 This was a practice project for the purpose of learning HTML and CSS. 
 
-Editor - *Sumblime Text*
-View - *Open in browser*
+**Editor** - *Sumblime Text*
+**View** - *Open in browser*
